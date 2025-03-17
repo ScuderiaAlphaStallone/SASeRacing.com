@@ -52,7 +52,7 @@
     </header>
     <main>
         <h2>Welcome to SAS Racing</h2>
-        <p>Your ultimate destination for high-speed esports racing action.</p>
+        <p>Racing for One and Only reason, For the passion that comes through Sheer Speed.</p>
 
         <div class="cta">
             <a href="#about">Learn More</a>
@@ -60,4 +60,5 @@
     </main>
 </body>
 </html>
+
 
