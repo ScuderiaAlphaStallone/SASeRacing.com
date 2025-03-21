@@ -1,4 +1,4 @@
-<h2> Meet the Crew </h2>
+<h2 style="color: #FF2800; text-align: center;"> Meet the Crew </h2>
 
 <div id="crew">
 
@@ -38,7 +38,7 @@
     </div>
 </div>
 
-<h2> Meet the Drivers </h2>
+<h2 style="color: #FF2800; text-align: center;"> Meet the Drivers </h2>
 
 <div id="drivers">
 
@@ -66,6 +66,12 @@
 </div>
 
 <style>
+    body {
+        background: linear-gradient(to bottom, #000000, #1A1A1A);
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
     #crew, #drivers {
         display: flex;
         justify-content: space-around;
@@ -80,16 +86,18 @@
 
     .hover-effect:hover {
         transform: scale(1.1);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 10px 30px gold;
     }
 
     .member img, .driver img {
         width: 200px;
         height: auto;
         border-radius: 12px;
+        border: 3px solid #FF2800;
     }
 
     h2 {
         margin: 10px 0;
     }
 </style>
+
