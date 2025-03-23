@@ -8,6 +8,25 @@ body {
     box-sizing: border-box;
 }
 
+/* Navigation Bar Styling */
+nav {
+    background: #333; /* Dark background for better visibility */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white; /* White text color */
+    text-decoration: none; /* No underline */
+    margin: 0 15px; /* Space between links */
+    font-weight: bold; /* Bold font */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    color: #FF0000; /* Turns red on hover */
+}
+
 /* Navigation Bar */
 nav {
     background: #1a1a1a;
@@ -54,21 +73,4 @@ nav a:hover {
     color: #ff0000;
 }
 
-/* Navigation Bar Styling */
-nav {
-    background: #333; /* Dark background for better visibility */
-    padding: 10px;
-    text-align: center;
-}
 
-nav a {
-    color: white; /* White text color */
-    text-decoration: none; /* No underline */
-    margin: 0 15px; /* Space between links */
-    font-weight: bold; /* Bold font */
-    transition: color 0.3s ease; /* Smooth hover effect */
-}
-
-nav a:hover {
-    color: #FF0000; /* Turns red on hover */
-}
