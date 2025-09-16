@@ -3,134 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Season 1 Calendar</title>
+  <title>SAS Racing Season Calendars</title>
   <style>
     body {
-      background-color: #000;
-      color: #fff;
       font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
       margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-
-    /* Navigation Bar */
-    nav {
-      background: #1a1a1a;
-      padding: 15px;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.3s ease;
-    }
-
-    nav a:hover {
-      color: #ff0000;
-    }
-
-    header {
-      background: #d40000;
       padding: 20px;
+      text-align: center;
     }
-
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-
-    section {
-      padding: 30px;
-    }
-
-    h2 {
-      color: #ffd700;
+    h1 {
       margin-bottom: 20px;
+      font-size: 2em;
     }
-
+    h2 {
+      color: gold;
+      margin-top: 40px;
+      margin-bottom: 15px;
+    }
     table {
       width: 90%;
-      margin: 20px auto;
+      margin: 0 auto 40px auto;
       border-collapse: collapse;
-      background: #1a1a1a;
-      box-shadow: 0 0 15px #ff0000;
     }
-
     th, td {
-      padding: 12px 15px;
-      border: 1px solid #444;
+      padding: 10px;
+      border-bottom: 1px solid #444;
     }
-
     th {
-      background: #d40000;
-      color: #fff;
-      font-size: 1.2rem;
-    }
-
-    td {
-      color: #fff;
-    }
-
-    .date {
       color: #ff4444;
+      text-align: left;
+    }
+    td {
+      text-align: left;
+    }
+    td:last-child {
+      color: #4aa3ff;
       font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <!-- Navigation -->
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="team.html">Team</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <h1>SAS Racing 2025 Season Calendar</h1>
 
-  <header>
-    <h1>Season 1 Calendar</h1>
-  </header>
+  <!-- Season 1 Calendar -->
+  <h2>Season 1 Calendar</h2>
 
-  <section>
-    <h2>SAS Racing Endurance Season Calendar</h2>
-    <table>
-      <tr>
-        <th>Date</th>
-        <th>Event</th>
-        <th>Location</th>
-        <th>Class</th>
-      </tr>
-      <tr><td class="date">Apr 19–20</td><td>12H Sebring</td><td>USA</td><td>LMH</td></tr>
-      <tr><td class="date">May 16–17</td><td>6H Spa Francorchamps</td><td>Belgium</td><td>LMH</td></tr>
-      <tr><td class="date">May 21–23</td><td>4H Hockenheim</td><td>Germany</td><td>LMH</td></tr>
-      <tr><td class="date">May 25–26</td><td>4H Spielberg</td><td>Austria</td><td>GTE</td></tr>
-      <tr><td class="date">May 28–29</td><td>6H COTA / 3H IMSA</td><td>USA</td><td>LMH / GTE</td></tr>
-      <tr><td class="date">Jun 5–8</td><td>24H Nürburgring</td><td>Germany</td><td>LMH</td></tr>
-      <tr><td class="date">Jul 10–13</td><td>24H Spa Francorchamps</td><td>Belgium</td><td>LMH / GTE</td></tr>
-      <tr><td class="date">Sep 4–6</td><td>Indy 6H</td><td>USA</td><td>GTE</td></tr>
-      <tr><td class="date">Sep 12–16</td><td>24H LeMans</td><td>France</td><td>WEC (GTE)</td></tr>
-      <tr><td class="date">Oct 2–5</td><td>Petit Le Mans 10H</td><td>USA</td><td>IMSA (GTE)</td></tr>
-    </table>
-  </section>
+  <h3>SAS Racing Endurance Season Calendar</h3>
+  <table>
+    <tr><th>Date</th><th>Event</th><th>Country</th><th>Class</th></tr>
+    <tr><td>Apr 19–20</td><td>12H Sebring</td><td>USA</td><td>LMH</td></tr>
+    <tr><td>May 16–17</td><td>6H Spa Francorchamps</td><td>Belgium</td><td>LMH</td></tr>
+    <tr><td>May 21–23</td><td>4H Hockenheim</td><td>Germany</td><td>LMH</td></tr>
+    <tr><td>May 25–26</td><td>4H Spielberg</td><td>Austria</td><td>GTE</td></tr>
+    <tr><td>May 28–29</td><td>6H COTA / 3H IMSA</td><td>USA</td><td>LMH / GTE</td></tr>
+    <tr><td>Jun 5–8</td><td>24H Nürburgring</td><td>Germany</td><td>LMH</td></tr>
+    <tr><td>Jul 10–13</td><td>24H Spa Francorchamps</td><td>Belgium</td><td>LMH / GTE</td></tr>
+    <tr><td>Sep 4–6</td><td>Indy 6H</td><td>USA</td><td>GTE</td></tr>
+    <tr><td>Sep 12–16</td><td>24H LeMans</td><td>France</td><td>WEC (GTE)</td></tr>
+    <tr><td>Oct 2–5</td><td>Petit Le Mans 10H</td><td>USA</td><td>IMSA (GTE)</td></tr>
+  </table>
 
-  <section>
-    <h2>SAS Racing GT3 Calendar</h2>
-    <table>
-      <tr>
-        <th>Date</th>
-        <th>Event</th>
-        <th>Location</th>
-        <th>Class</th>
-      </tr>
-      <tr><td class="date">Jun 14–15</td><td>RedBull Ring (Car 7)</td><td>Austria</td><td>GT3</td></tr>
-      <tr><td class="date">Jun 28–29</td><td>Spa Francorchamps (Car 7)</td><td>Belgium</td><td>GT3</td></tr>
-      <tr><td class="date">Jul 26–27</td><td>Circuit de Catalunya (Car 14)</td><td>Spain</td><td>GT3</td></tr>
-      <tr><td class="date">Aug 2–3</td><td>Silverstone (Car 14)</td><td>Great Britain</td><td>GT3</td></tr>
-      <tr><td class="date">Aug 6–7</td><td>Dubai Autodrome (Car 14)</td><td>UAE</td><td>GT3</td></tr>
-    </table>
-  </section>
+  <h3>SAS Racing GT3 Calendar</h3>
+  <table>
+    <tr><th>Date</th><th>Event</th><th>Country</th><th>Class</th></tr>
+    <tr><td>Jun 14–15</td><td>RedBull Ring (Car 7)</td><td>Austria</td><td>GT3</td></tr>
+    <tr><td>Jun 28–29</td><td>Spa Francorchamps (Car 7)</td><td>Belgium</td><td>GT3</td></tr>
+    <tr><td>Jul 26–27</td><td>Circuit de Catalunya (Car 14)</td><td>Spain</td><td>GT3</td></tr>
+    <tr><td>Aug 2–3</td><td>Silverstone (Car 14)</td><td>Great Britain</td><td>GT3</td></tr>
+    <tr><td>Aug 6–7</td><td>Dubai Autodrome (Car 14)</td><td>UAE</td><td>GT3</td></tr>
+  </table>
+
+  <!-- Season 2 Calendar (Template) -->
+  <h2>Season 2 Calendar</h2>
+
+  <h3>SAS Racing Endurance Season Calendar</h3>
+  <table>
+    <tr><th>Date</th><th>Event</th><th>Country</th><th>Class</th></tr>
+    <tr><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+  </table>
+
+  <h3>SAS Racing GT3 Calendar</h3>
+  <table>
+    <tr><th>Date</th><th>Event</th><th>Country</th><th>Class</th></tr>
+    <tr><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+  </table>
 </body>
 </html>
