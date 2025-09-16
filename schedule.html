@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAS Racing - Schedule</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #d40000;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background: #1a1a1a;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff0000;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    h2 {
+      text-align: center;
+      color: #ff0000;
+      margin-bottom: 2rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: auto;
+      background: #111;
+      box-shadow: 0 0 15px #ff0000;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background: #d40000;
+      color: #fff;
+    }
+
+    tr:nth-child(even) {
+      background: #1a1a1a;
+    }
+
+    tr:hover {
+      background: #333;
+    }
+
+    @media (max-width: 768px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+      }
+
+      th {
+        display: none;
+      }
+
+      td {
+        border: none;
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #444;
+      }
+
+      td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #ff0000;
+        display: block;
+        margin-bottom: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SAS Racing</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="team.html">Meet the Team</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>2025 Racing Schedule</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Round</th>
+          <th>Date</th>
+          <th>Circuit</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Round">1</td>
+          <td data-label="Date">March 15, 2025</td>
+          <td data-label="Circuit">Sebring International Raceway</td>
+          <td data-label="Country">USA</td>
+        </tr>
+        <tr>
+          <td data-label="Round">2</td>
+          <td data-label="Date">April 12, 2025</td>
+          <td data-label="Circuit">Spa-Francorchamps</td>
+          <td data-label="Country">Belgium</td>
+        </tr>
+        <tr>
+          <td data-label="Round">3</td>
+          <td data-label="Date">May 24, 2025</td>
+          <td data-label="Circuit">Le Mans</td>
+          <td data-label="Country">France</td>
+        </tr>
+        <!-- Add more rounds as needed -->
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
