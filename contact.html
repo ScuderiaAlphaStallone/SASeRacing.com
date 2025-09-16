@@ -1,100 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact SAS Racing</title>
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.8;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - SAS Racing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
 
-        nav {
-            background: #1a1a1a;
-            padding: 15px;
-            text-align: center;
-        }
+    header {
+      background: #e10600; /* Ferrari red */
+      padding: 15px;
+      text-align: center;
+    }
 
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
 
-        nav a:hover {
-            color: #ff0000;
-        }
+    main {
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+    }
 
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 40px 20px;
-        }
+    h2 {
+      color: #e10600;
+      text-align: center;
+    }
 
-        h1 {
-            color: #ff0000;
-            text-align: center;
-        }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
 
-        form {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            margin-top: 20px;
-        }
+    input, textarea, button {
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+    }
 
-        input, textarea {
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            font-size: 1rem;
-        }
+    input, textarea {
+      width: 100%;
+    }
 
-        button {
-            background: #ff0000;
-            color: white;
-            padding: 12px;
-            border: none;
-            border-radius: 5px;
-            font-size: 1rem;
-            font-weight: bold;
-            cursor: pointer;
-        }
+    button {
+      background: #e10600;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
 
-        button:hover {
-            background: #d40000;
-        }
-    </style>
+    button:hover {
+      background: #b30000;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      padding: 15px;
+      background: #1a1a1a;
+    }
+  </style>
 </head>
-
 <body>
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="team.html">Meet the Team</a>
-        <a href="about.html">About</a>
-        <a href="schedule.html">Schedule</a>
-    </nav>
 
-    <div class="container">
-        <h1>Contact SAS Racing</h1>
-        <p>Have questions, sponsorship inquiries, or just want to say hi? Fill out the form below and our team will get back to you!</p>
+  <header>
+    <h1>SAS Racing - Contact Us</h1>
+  </header>
 
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </div>
+  <main>
+    <h2>We’d love to hear from you!</h2>
+    <p>Fill out the form below and we’ll get back to you soon.</p>
+
+    <!-- Netlify Form -->
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SAS Racing. All rights reserved.</p>
+  </footer>
+
 </body>
-
 </html>
