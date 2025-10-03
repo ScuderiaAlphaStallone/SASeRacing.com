@@ -142,4 +142,18 @@ h2 {
     color: #FF2800;
 }
 
+/* Remove blue color + underline from driver/crew links */
+.profile-link {
+    text-decoration: none;
+    color: inherit; /* makes text follow your white/gold theme */
+    display: inline-block;
+}
+
+/* Keep hover clean */
+.profile-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+
 
