@@ -155,5 +155,33 @@ h2 {
     text-decoration: none;
 }
 
+.profile-page {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 700px; /* keeps it centered and not too wide */
+  padding: 20px;
+  background: #1A1A1A; /* matches your site theme */
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(255, 40, 0, 0.3);
+}
+
+.profile-page img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  border: 3px solid #FF2800;
+  display: block;
+  margin: 0 auto 20px auto; /* centers and adds space below */
+}
+
+.profile-page h2 {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.profile-page p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
 
 
