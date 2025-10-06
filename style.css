@@ -184,4 +184,57 @@ h2 {
   line-height: 1.6;
 }
 
+.profile-page .stats {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.profile-page .stats h3 {
+  border-bottom: 2px solid #e63946;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  color: #e63946;
+  font-size: 22px;
+}
+
+.profile-page .stats ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.profile-page .stats li {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #e63946;
+  border-radius: 12px;
+  padding: 12px 20px;
+  min-width: 200px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-page .stats li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #e63946;
+}
+
+.profile-page .stats strong {
+  color: #e63946;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.profile-page .stats li {
+  color: white;
+  font-size: 15px;
+}
 
