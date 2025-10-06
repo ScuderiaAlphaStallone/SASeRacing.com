@@ -41,6 +41,21 @@
    <footer>
     <p>&copy; 2025 Scuderia Alpha Stallone. All rights reserved.</p>
   </footer>
-  
+
+  <script>
+  const statCards = document.querySelectorAll('.stat-card');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  statCards.forEach(card => observer.observe(card));
+</script>
+
 </body>
 </html>
